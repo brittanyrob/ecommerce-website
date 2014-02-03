@@ -16,17 +16,16 @@ overflow: hidden;
 @viewport { width: device-width; scale: 1;}
 
 html{
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-o-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+-o-text-size-adjust: 100%;
+text-size-adjust: 100%;
 }
 
 /*----------------------------------------------------Bottom */
 
 #navigation, footer {
-padding: 0px;
 background-color: #926882; 
 color: #fff;
 text-align: center;
@@ -34,10 +33,7 @@ text-align: center;
 
 footer nav li {
 display: inline-block;
-zoom: 1;
-padding: 10px;
-margin-top: -2rem;
-max-width: 400px;
+text-align: center;
 }
 
 nav li a {
@@ -45,36 +41,49 @@ color: #ccc;
 text-decoration: none;
 }
 
-
-@media only screen and (min-width: 30em) {
-footer nav li {
-display: inline-block;
-float: right;
-padding: 10px;
-margin-top: -1rem;
-max-width: 400px;
-}
-}
-
 footer {	
 font-size: 0.9em;
-padding: .5rem;
 }
 
+@media only screen and (min-width: 30em) {
+footer {	
+padding: 2rem;
+}
+}
 .copyright {
 font-size: .25rem;
+text-align: center;
+margin-top: 1rem;
+padding: 0;
 }
+
+.toplink {
+	margin-top: 1rem;
+	padding: 0;
+}
+
 /* ----------------------------social media badges */
 
-.icon {
-display: inline-block;
-width: 25px;
-float: left;
-margin-right: 1px;
-padding: .5rem;
-margin-top: -.5rem;
+.social  {
+	width: 100%;
+	padding: 0;
 }
 
-.icon ul {
-margin: 0 .1rem;
+.social ul {
+	padding: 0;
+}
+
+.social li {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.social li a {
+	height: 30px;
+	width: 30px;
+	display: block;
+}
+
+.social img {
+	padding: 0;
 }
