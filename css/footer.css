@@ -70,10 +70,11 @@ font-size: .25rem;
 display: inline-block;
 width: 25px;
 float: left;
-margin-right: 6px;
+margin-right: 1px;
+padding: .5rem;
+margin-top: -.5rem;
 }
 
-.icon li {
-margin: 0 .4rem;
-display: inline-block;
+.icon ul {
+margin: 0 .1rem;
 }
