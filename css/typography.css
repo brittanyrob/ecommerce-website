@@ -43,11 +43,6 @@ a:active {
 	border-bottom: #CD74C3;
 }
 
-a:visited {
-	color: #CD74C3;
-	border-bottom-color: #CD74C3;
-}
-
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
@@ -55,7 +50,7 @@ blockquote, table, hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Trocchi;
+  font-family: Libre Baskerville;
 }
 
 .yotta {
