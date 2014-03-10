@@ -21,3 +21,16 @@ bannertext: Welcome to Lilac Dairy
 	</div>
 	
 </div>	
+
+<ul>
+	{% for yogurt in site.pages %}
+		{% if yogurt.category == 'yogurt' %}
+			<li>
+				<a href="{{yogurt.url}}">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt{{yogurt.image}}" alt="">
+					{{yogurt.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>	
