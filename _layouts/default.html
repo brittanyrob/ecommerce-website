@@ -29,14 +29,14 @@
 <body>
 <header class="grid">
 	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-		<a href="index.html" ><img src="{{site.baseurl}}/images/icons/website-logo.svg" alt="logo" class="logo"></a>
+		<a href="/yogurt/" ><img src="{{site.baseurl}}/images/icons/website-logo.svg" alt="logo" class="logo"></a>
 	</div>
 	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
 		<nav class="nav">
 			<ul class="list-group">
-				<li class="list-group-item-inline"><a class="{% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
-				<li class="list-group-item-inline"><a class="{% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
-				<li class="list-group-item-inline"><a class="{% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Yogurt</a></li>
+				<li class="list-group-item-inline"><a class="{% if page.url =='/yogurt/' %}current{% endif %}" href="{{site.baseurl}}/yogurt/">Home</a></li>
+				<li class="list-group-item-inline"><a class="{% if page.url =='/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+				<li class="list-group-item-inline"><a class="{% if page.url =='/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Yogurt</a></li>
 			</ul>
 		</nav>
 	</div>
