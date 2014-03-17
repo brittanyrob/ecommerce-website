@@ -1,8 +1,11 @@
-inclass-ecommerce
-=================
+# ecommerce-website
 
-<<<<<<< HEAD
-A demonstration repo for inclass ecommerce website.
-=======
-In class exercises 
->>>>>>> 75ffa3b31a3731ffe78f1d8f8a030dd8a4969f14
+A demonstration repo for in class ecommerce website design system.
+
+---
+
+## Copyright
+
+© 2014 Brittany Robertson
+
+Licensed under the [MIT License](LICENSE).
