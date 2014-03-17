@@ -32,3 +32,16 @@ Honey
 
 Blackberry
 ![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
+
+<ul>
+	{% for yogurt in site.pages %}
+		{% if yogurt.type == 'greek' %}
+			<li>
+				<a href="{{site.baseurl}}{{yogurt.url}}">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt2.jpg{{greek.image}}" alt="">
+					{{yogurt.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>	
