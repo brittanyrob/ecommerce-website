@@ -3,11 +3,10 @@ layout: default
 category: all products
 name: products
 image: yogurt/greek.jpg
+showbanner: yes
+bannertext: Products
 ---
 
-Every flavour your tastebuds are dreaming of!
-
-Double protein, and a creamy texture how could you not love Lilac Dairy [Greek Yogurt.] (http://en.wikipedia.org/wiki/Strained_yogurt)
 
 ## Fruit Yogurt
 

@@ -1,13 +1,11 @@
 ---
 layout: yogurts
 category: yogurt
-name: Greek
 image: yogurt/greek.jpg
+showbanner: yes
+bannertext: Greek Yogurt
 ---
 
-Greek yogurt is the new yogurt!
-
-Double protein, and a creamy texture how could you not love Lilac Dairy [Greek Yogurt.] (http://en.wikipedia.org/wiki/Strained_yogurt)
 
 ## Features
 
