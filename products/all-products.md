@@ -1,36 +1,34 @@
 ---
-layout: yogurts
-category: yogurt
-name: Greek
+layout: default
+category: all products
+name: products
 image: yogurt/greek.jpg
 ---
 
-Greek yogurt is the new yogurt!
+Every flavour your tastebuds are dreaming of!
 
 Double protein, and a creamy texture how could you not love Lilac Dairy [Greek Yogurt.] (http://en.wikipedia.org/wiki/Strained_yogurt)
 
-## Features
+## Fruit Yogurt
 
 - Multiple Flavours
 - Creamy Texture
 - Low Fat
 
-
+![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
+![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
+![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
+![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
 ![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
 
-## Flavours
+## Greek Yogurt
 
-Strawberry
+- Multiple Flavours
+- Creamy Texture
+- Low Fat
+
 ![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-Blueberry
 ![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-Rasberry
 ![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-Honey
 ![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-Blackberry
 ![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)

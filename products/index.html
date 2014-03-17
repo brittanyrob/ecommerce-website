@@ -1,0 +1,30 @@
+---
+layout: default
+title: Products
+meta: "Selling high-quality greek yogurt to consumers."
+showbanner: yes
+bannertext: Products
+---
+
+
+
+<div class="grid-promo-large">
+	
+	<div class=" gutter unit unit-s-1 unit-m-1 unit-l-1">
+		{%  include promo-small.html title="Promo 1" desc="Greek Yogurt Special!" image="yogurt/yogurt2.jpg" %}
+	</div>
+
+</div>	
+
+<ul>
+	{% for products in site.pages %}
+		{% if products.category == 'products' %}
+			<li>
+				<a href="{{site.baseurl}}{{products.url}}">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt2.jpg{{greek.image}}" alt="">
+					{{products.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>	
