@@ -32,6 +32,10 @@ html{
  color: #547B77;
 }
 
+h1 {
+	align: center;
+}
+
 @media only screen and (min-width: 30em) {
 
 .logo {

@@ -1,17 +1,67 @@
 ---
 layout: yogurts
-category: yogurt
+category: greek yogurt
 image: images/yogurt/yogurt.jpg
 showbanner: yes
 bannertext: Greek Yogurt
 ---
 
 
-## Features
 
-- Multiple Flavours
-- Creamy Texture
-- Low Fat
+<ul>
+	{% for yogurt in site.pages %}
+		{% if yogurt.type == 'greek' %}
+			<li>
+				<a href="{{site.baseurl}}{{yogurt.url}}">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="strawberry">
+					{{yogurt.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>	
+
+
+<ul>
+	{% for yogurt in site.pages %}
+		{% if yogurt.type == 'greek' %}
+			<li>
+				<a href="{{site.baseurl}}{{yogurt.url}}">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="">
+					{{yogurt.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>	
+
+
+<ul>
+	{% for yogurt in site.pages %}
+		{% if yogurt.type == 'greek' %}
+			<li>
+				<a href="{{site.baseurl}}{{yogurt.url}}">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="">
+					{{yogurt.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>	
+
+
+<ul>
+	{% for yogurt in site.pages %}
+		{% if yogurt.type == 'greek' %}
+			<li>
+				<a href="{{site.baseurl}}{{yogurt.url}}">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="">
+					{{yogurt.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>	
 
 
 <ul>
