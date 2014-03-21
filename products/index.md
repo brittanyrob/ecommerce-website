@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: yogurts
 category: all products
 name: products
 image: yogurt/greek.jpg
@@ -14,11 +14,6 @@ bannertext: Products
 - Creamy Texture
 - Low Fat
 
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
 
 ## Greek Yogurt
 
@@ -26,8 +21,3 @@ bannertext: Products
 - Creamy Texture
 - Low Fat
 
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)

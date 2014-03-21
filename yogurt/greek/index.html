@@ -1,7 +1,7 @@
 ---
 layout: yogurts
 category: yogurt
-image: yogurt/greek.jpg
+image: images/yogurt/yogurt.jpg
 showbanner: yes
 bannertext: Greek Yogurt
 ---
@@ -14,31 +14,12 @@ bannertext: Greek Yogurt
 - Low Fat
 
 
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-## Flavours
-
-Strawberry
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-Blueberry
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-Rasberry
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-Honey
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
-Blackberry
-![Yogurt Bowl](http://upload.wikimedia.org/wikipedia/commons/2/2c/Labneh01.jpg)
-
 <ul>
 	{% for yogurt in site.pages %}
 		{% if yogurt.type == 'greek' %}
 			<li>
 				<a href="{{site.baseurl}}{{yogurt.url}}">
-					<img src="{{site.baseurl}}/images/yogurt/yogurt2.jpg{{greek.image}}" alt="">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="">
 					{{yogurt.name}}
 				</a>
 			</li>

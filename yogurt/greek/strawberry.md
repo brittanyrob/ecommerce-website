@@ -3,6 +3,6 @@ layout: yogurts
 category: yogurt
 type: greek
 title: strawberry
-image: yogurt/greek.jpg
+image: images/yogurt/yogurt2.jpg
 ---
 
