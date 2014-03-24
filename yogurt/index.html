@@ -1,44 +1,30 @@
 ---
 layout: default
-title: Home
+title: Yogurt
 meta: "Selling high-quality greek yogurt to consumers."
 showbanner: yes
 bannertext: Welcome to Lilac Dairy
 ---
 
-<div class="grid">
-	
-	<div class=" gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{%  include promo-small.html title="Promo 1" desc="Super-duper sale!" image="yogurt/yogurt2.jpg" %}
-	</div>
-	
-	<div class=" gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{%  include promo-small.html title="Promo 2" desc="Another amazing deal!" image="yogurt/yogurt3.jpg" %}
-	</div>
-	
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{%  include promo-small.html title="Promo 3" desc="Fantastico!" image="yogurt/yogurt4.jpg" %}
-	</div>
-	
-</div>	
-
 <div class="grid-promo-large">
 	
 	<div class=" gutter unit unit-s-1 unit-m-1 unit-l-1">
-		{%  include promo-small.html title="Promo 1" desc="Greek Yogurt Special!" image="yogurt/yogurt2.jpg" %}
+		{%  include promo-small.html image="yogurt/banner1.jpg" %}
 	</div>
 
 </div>	
 
-<ul>
-	{% for yogurt in site.pages %}
-		{% if yogurt.category == 'yogurt' %}
-			<li>
-				<a href="{{site.baseurl}}{{yogurt.url}}">
-					<img src="{{site.baseurl}}/images/yogurt/yogurt2.jpg{{greek.image}}" alt="">
-					{{yogurt.name}}
+<ul class= "grid">
+			<li class = "unit unit-s-1 unit-m-1-2 unit-l-1-2">
+				<a href="{{site.baseurl}}/yogurt/greek/">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt2.jpg" class="img-flex" alt="">
+			<h2>Greek</h2>
 				</a>
 			</li>
-		{% endif %}
-	{% endfor %}
+			<li class = "unit unit-s-1 unit-m-1-2 unit-l-1-2">
+				<a href="{{site.baseurl}}/yogurt/greek/">
+					<img src="{{site.baseurl}}/images/yogurt/yogurt2.jpg" class="img-flex" alt="">
+			<h2>Fruit Yogurt</h2>
+				</a>
+			</li>
 </ul>	

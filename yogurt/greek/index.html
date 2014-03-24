@@ -13,66 +13,11 @@ bannertext: Greek Yogurt
 		{% if yogurt.type == 'greek' %}
 			<li>
 				<a href="{{site.baseurl}}{{yogurt.url}}">
-					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="strawberry">
-					{{yogurt.name}}
+					<img src="{{site.baseurl}}/images/yogurt/{{yogurt.image}}" alt="">
+					{{yogurt.title}}
 				</a>
 			</li>
 		{% endif %}
 	{% endfor %}
 </ul>	
 
-
-<ul>
-	{% for yogurt in site.pages %}
-		{% if yogurt.type == 'greek' %}
-			<li>
-				<a href="{{site.baseurl}}{{yogurt.url}}">
-					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="">
-					{{yogurt.name}}
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>	
-
-
-<ul>
-	{% for yogurt in site.pages %}
-		{% if yogurt.type == 'greek' %}
-			<li>
-				<a href="{{site.baseurl}}{{yogurt.url}}">
-					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="">
-					{{yogurt.name}}
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>	
-
-
-<ul>
-	{% for yogurt in site.pages %}
-		{% if yogurt.type == 'greek' %}
-			<li>
-				<a href="{{site.baseurl}}{{yogurt.url}}">
-					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="">
-					{{yogurt.name}}
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>	
-
-
-<ul>
-	{% for yogurt in site.pages %}
-		{% if yogurt.type == 'greek' %}
-			<li>
-				<a href="{{site.baseurl}}{{yogurt.url}}">
-					<img src="{{site.baseurl}}/images/yogurt/yogurt.jpg{{greek.image}}" alt="">
-					{{yogurt.name}}
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>	
