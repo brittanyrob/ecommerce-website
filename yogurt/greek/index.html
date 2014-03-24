@@ -8,12 +8,12 @@ bannertext: Greek Yogurt
 
 
 
-<ul>
+<ul class= "grid">
 	{% for yogurt in site.pages %}
 		{% if yogurt.type == 'greek' %}
-			<li>
+			<li class = "unit unit-s-1 unit-m-1-2 unit-l-1-2">
 				<a href="{{site.baseurl}}{{yogurt.url}}">
-					<img src="{{site.baseurl}}/images/yogurt/{{yogurt.image}}" alt="">
+					<img src="{{site.baseurl}}/images/yogurt/{{yogurt.image}}" class="img-flex" alt="">
 					{{yogurt.title}}
 				</a>
 			</li>
