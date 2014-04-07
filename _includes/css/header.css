@@ -26,6 +26,7 @@ html{
 .logo {
 	width: 100px;
 	display: block;
+	align: center center;
 }
 
 .current {
